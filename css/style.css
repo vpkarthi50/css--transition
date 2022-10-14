@@ -1,0 +1,117 @@
+/*css starts*/
+
+/*common css starts*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:85%;
+	margin:auto;
+}
+.dflex{
+	display:flex;
+}
+.flex-wrap{
+	flex-wrap:wrap;
+}
+.justify-content-space-between{
+	justify-content:space-between;
+}
+/*common css ends*/
+
+/*header css starts*/
+
+.transitions{
+	width:100%;
+}
+span{
+	margin-top:5%;
+	font-size:1rem;
+	font-weight:600;
+	width:20%;
+}
+/*header css ends*/
+
+/*transitions starts*/
+.transition{
+	margin:3% 0 3% 0;
+	background-color:green;
+	width:200px;
+	height:100px;
+	transition:width 2s;
+}
+.transition:hover{
+	width:400px;
+}
+
+
+.transition-delay{
+	margin:3% 0 3% 0;
+	background-color:green;
+	width:200px;
+	height:100px;
+	transition:width 2s;
+
+}
+.transition-delay:hover{
+	width:400px;
+	transition-delay:1s;
+}
+
+
+.transition-duration{
+	margin:3% 0 3% 0;
+	background-color:green;
+	width:200px;
+	height:100px;
+	transition:width 10s;
+
+}
+.transition-duration:hover{
+	width:400px;
+}
+
+#ease{
+	transition-timing-function:ease;
+}
+#ease-in{
+	transition-timing-function:ease-in;
+}
+#ease-out{
+	transition-timing-function:ease-out;
+}
+#ease-in-out{
+	transition-timing-function:ease;
+}
+#linear{
+	transition-timing-function:linear;
+}
+.tf{
+	margin:3% 0 3% 0;
+	background-color:green;
+	width:200px;
+	height:100px;
+	transition:width 2s;
+}
+#ease:hover{
+	width:400px;
+}
+#ease-in:hover{
+	width:400px;
+}
+#ease-out:hover{
+	width:400px;
+}
+#ease-in-out:hover{
+	width:400px;
+}
+#linear:hover{
+	width:400px;
+}
+
+/*transiton ends*/
+
+/*css ends*/
